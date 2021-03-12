@@ -35,7 +35,7 @@ pipeline {
     stage('Build Filter') {
       steps {
         script{
-          if (BUILD_NUMBER == '2') {
+          if (BUILD_NUMBER == '1') {
             echo 'Fist Build...'
             error('Stop')
           } else {
